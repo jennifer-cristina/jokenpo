@@ -46,7 +46,7 @@ public class Jokenpo {
 					numeroJogado = leitor.nextInt();
 				}
 		
-				if (numeroJogado == 1) {
+				if (numeroJogado == 1) { 
 					System.out.println("Hmm..Escolheu Pedra parece ser uma boa arma.");
 				} else if (numeroJogado == 2) {
 					System.out.println("Hmm..Papel pode ser mais cortante que uma própria tesoura. ");
@@ -117,7 +117,7 @@ public class Jokenpo {
 			
 		}
 		
-		System.out.println(" FIM ");
+		System.out.println("_____________________________________________END__________________________________________");
 		leitor.close();
 	}
 
